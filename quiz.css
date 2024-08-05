@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+}
+.myapp{
+    position: relative;
+    top: 17vh;
+    background-color: azure;
+    padding: 3rem;
+    border-radius: 4px;
+}
+.qsection{
+    margin-top: 10px;
+    font-weight: 700;
+    color: #001e4d;
+}
+.asection{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 1.5rem;
+}
+button{
+    padding: 4px;
+}
+.change{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.changebtn{
+    background-color: #001e4d;
+    color: aliceblue;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ansbtn:hover{
+background-color: #000;
+cursor: pointer;
+color: aliceblue;
+}
+.correct{
+    background-color: aquamarine;
+}
+.incorrect{
+    background-color: orangered;
+}
+.ansbtn{
+    font-size: large;
+    border-radius: 7px;
+}
